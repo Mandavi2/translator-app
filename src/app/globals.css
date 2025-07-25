@@ -9,14 +9,17 @@
   
 }
 
-
-
-
 *{
   /* margin: 0; */
   box-sizing: border-box;
   outline: none;
   /* font-family: var(--font-russo); */
+}
+.language{
+  @apply text-lg text-right uppercase cursor-pointer font-russo;
+}
+.textarea{
+  @apply w-full h-48 resize-none bg-[#151515] shadow-md shadow-black rounded-lg px-4 py-2 font-righteous font-light leading-5;
 }
 
 

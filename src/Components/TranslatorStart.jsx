@@ -10,7 +10,7 @@ const TranslatorStart = () => {
         <span className='text-4xl text-right font-medium'>こんにちは</span>
         <span className='text-2xl text-right font-russo'>Hola</span>
     </div>
-    <div className='w-full text-right space-y-5 mt-20 mb-36'>
+    <div className='w-full text-right space-y-5 mt-12 mb-26'>
         <h1 className='font-righteous text-4xl text-white uppercase'>Translator App</h1>
         <button className='w-32 h-10 bg-gradient-to-r from-[#b6f492] to-[#338b93] font-righteous rounded-full font-bold text-lg uppercase text-gray-700 tracking-widest  transition-transform duration-100 active:translate-y-[2px] cursor-pointer'>Start</button>
     </div>
