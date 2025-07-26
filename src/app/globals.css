@@ -21,5 +21,13 @@
 .textarea{
   @apply w-full h-48 resize-none bg-[#151515] shadow-md shadow-black rounded-lg px-4 py-2 font-righteous font-light leading-5;
 }
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
 
 
